@@ -20,7 +20,7 @@ function fetchQuotes() {
 
             // Parse each line to extract quotes and authors
             for (let i = 1; i < lines.length; i++) {
-                const [id, quote, author] = lines[i].split(',');
+                const [id, quote, author] = lines[i].split(';');
                 quotes.push({
                     id: parseInt(id),
                     quote: quote.trim(),
