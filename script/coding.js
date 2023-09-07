@@ -5,48 +5,6 @@ var shuffledQuotes = [];
 var typingSpeed = 25; 
 var typingTimeout = null;
 
-
-/* function fetchQuotes() {
-    quotes.push({ 
-        id: 1, 
-        quote: '"Try not to become a person of success, but rather try to become a person of value."', 
-        author: "Albert Einstein" 
-    });
-    quotes.push({ 
-        id: 2, 
-        quote: '"Your ability to discipline yourself to set clear goals, and then to work toward them every day, will do more to guarantee your success than any other single factor."', 
-        author: "Brian Tracy" 
-    });
-    quotes.push({
-        id: 3,
-        quote: '"There are no secrets to success. It is the result of preparation, hard work, and learning from failure."',
-        author: "Colin Powell"
-    });
-    quotes.push({ 
-        id: 4, 
-        quote: '"Success is not final, failure is not fatal; it is the courage to continue that counts."', 
-        author: "Winston Churchill" 
-    });
-    quotes.push({ 
-        id: 5, 
-        quote: '"Some people dream of success, while other people get up every morning and make it happen."', 
-        author: "Wayne Huizenga" 
-    });
-    quotes.push({
-        id: 6,
-        quote: '"As long as you are learning, you are not failing."',
-        author: "Bob Ross"
-    })
-    quotes.push({
-        id: 7,
-        quote: '"Life will only change when you become more committed to your dreams than you are to your comfort zone."',
-        author: "Billy Cox"
-    })
-
-    shuffledQuotes = shuffleArray(quotes);
-} */
-
-// Modify the path to your CSV file as needed
 const csvFilePath = 'resources/quotes.csv';
 
 function fetchQuotes() {
